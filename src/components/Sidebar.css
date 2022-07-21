@@ -1,0 +1,25 @@
+.sidebar {
+  width: 280px;
+  box-shadow: 5px 0px 10px 1px lightgrey;
+  background-color: aliceblue;
+}
+
+.sidebar__option {
+  padding: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+label {
+  font-weight: 500;
+}
+
+select {
+  border: none;
+  font-size: 0.9rem;
+  outline: none;
+  background-color: transparent;
+}
