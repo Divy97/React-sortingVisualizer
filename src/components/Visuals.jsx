@@ -1,6 +1,20 @@
+// import React, { useState, useEffect } from "react";
+// import { useSelector, useDispatch } from "react-redux";
+
 import React from "react";
 import "./Visuals.css";
+
 const Visuals = () => {
+  // const myState = useSelector((state) => state.actions);
+  // const dispatch = useDispatch();
+  // const color = myState.color;
+  // const range = myState.range;
+
+  // console.log("COLOR", color);
+  // //changes value by clicking on change value button
+  // const changeValues = () => {
+  //   let new_arr;
+  // };
   return (
     <>
       <div className="visuals">
