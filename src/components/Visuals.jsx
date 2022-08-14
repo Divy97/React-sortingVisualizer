@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import BubbleSort from "./algorithms/bubbleSort";
+import BubbleSort from "./algorithms/BubbleSort";
+import InsertionSort from "./algorithms/InsertionSort";
+import MergeSort from "./algorithms/MergeSort";
+import QuickSort from "./algorithms/QuickSort";
+import SelectionSort from "./algorithms/SelectionSort";
 
 import "./Visuals.css";
 
@@ -102,6 +106,10 @@ const Visuals = () => {
         </div>
       </div>
       <BubbleSort />
+      <InsertionSort />
+      <MergeSort />
+      <QuickSort />
+      <SelectionSort />
     </>
   );
 };
